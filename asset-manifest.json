@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/website-app/static/css/main.216fafd9.css",
+    "main.js": "/website-app/static/js/main.62c7f99e.js",
+    "static/media/server.jpg": "/website-app/static/media/server.469c8c8f5d6711fdc2c4.jpg",
+    "static/media/anlythis.png": "/website-app/static/media/anlythis.457bab631e5a4b83c07a.png",
+    "static/media/Logo.jpg": "/website-app/static/media/Logo.797a114e8077bc539340.jpg",
+    "static/media/marketing.jpg": "/website-app/static/media/marketing.7b050578017508fde2bb.jpg",
+    "static/media/Linked In - Logo .png": "/website-app/static/media/Linked In - Logo .cd71fb396f73fb1f27d4.png",
+    "static/media/business-woman.png": "/website-app/static/media/business-woman.7da802bdbdc4245ffbb2.png",
+    "static/media/research.png": "/website-app/static/media/research.2ee59fc685e206cd5a9f.png",
+    "static/media/businessman.png": "/website-app/static/media/businessman.a82674f96ee7da1ac924.png",
+    "static/media/img-2.svg": "/website-app/static/media/img-2.fbd2b8761e51c9eb389b2c6c5e4c2140.svg",
+    "static/media/Twitter - icon .png": "/website-app/static/media/Twitter - icon .7db2410756655c345272.png",
+    "static/media/idea.png": "/website-app/static/media/idea.9c3f764492e3da55c9db.png",
+    "static/media/Google+ - icon .png": "/website-app/static/media/Google+ - icon .c4f833b0f0800f25c75b.png",
+    "index.html": "/website-app/index.html",
+    "main.216fafd9.css.map": "/website-app/static/css/main.216fafd9.css.map",
+    "main.62c7f99e.js.map": "/website-app/static/js/main.62c7f99e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.216fafd9.css",
+    "static/js/main.62c7f99e.js"
+  ]
+}
