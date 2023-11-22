@@ -8,8 +8,7 @@ import Reviews from '../components/Reviews';
 import Footer from '../components/footer'
 function Home() {
   return (
-    <>
-        
+    <>    
     <Navbar/>
       <Header />
       <Content/>
