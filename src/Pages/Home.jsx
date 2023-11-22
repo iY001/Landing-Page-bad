@@ -16,7 +16,6 @@ function Home() {
       <Reviews/>
       <Contact/>
       <Footer/>
-
     </>
   )
 }
