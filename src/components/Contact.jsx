@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
     
-    <contact className='bg-[#1ca0ac] container w-[60em] mx-auto rounded-2xl h-[360px] flex flex-col items-center justify-center '>
+    <div className='bg-[#1ca0ac] container w-[60em] mx-auto rounded-2xl h-[360px] flex flex-col items-center justify-center '>
 
         <section>
             <span className='text-center'>
@@ -15,7 +15,7 @@ function Contact() {
         </section>
 
             <button className='bg-white text-[#1ca0ac] shadow-sm hover:shadow-xl duration-500 font-semibold py-2 px-8 rounded-3xl'>Get Started Now</button>
-    </contact>
+    </div>
 
     </>
   )

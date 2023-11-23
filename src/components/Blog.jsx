@@ -26,13 +26,13 @@ function Blog() {
         </div> {/* head */}
       <div className='flex inline gap-10'>
 
-        <card className="w-full mt-5 shadow-lg">
+        <div className="w-full mt-5 shadow-lg">
             <section className='w-full h-auto bg-white border-2  hover:bg-[#e8fafc] pb-12 rounded-lg text-left'>
-            <pic >
+            <div>
             <img src={marketing} className=' h-[26em] w-full rounded-xl' alt="" />
-          </pic>
+          </div>
 
-            <text className=''> 
+            <section className=''> 
                   <span className='flex justify-between items-center pt-8 px-6'>
                       <p className='font-medium text-4xl'>Markting</p>
                       <p className='font-medium text-base'>Aug.20.2021</p>
@@ -44,17 +44,17 @@ function Blog() {
                   </span>
 
                 <span className='px-6'><a href="#" className=' font-semibold text-lg text-[#26a2ad]'>learn more</a></span>
-            </text>  
+            </section>  
             </section>
-        </card>     {/* Card 1  */}
+        </div>     {/* Card 1  */}
 
-        <card className="w-full mt-5 shadow-lg">
+        <div className="w-full mt-5 shadow-lg">
         <section className='w-full h-auto bg-white border-2  hover:bg-[#e8fafc] pb-12 rounded-lg text-left'>
-            <pic >
+            <div>
             <img src={trends} className=' h-[26em] w-full rounded-xl' alt="" />
-          </pic>
+          </div>
 
-            <text className=''> 
+            <section className=''> 
                   <span className='flex justify-between items-center pt-8 px-6'>
                       <p className='font-medium text-4xl'>Markting</p>
                       <p className='font-medium text-base'>Aug.20.2021</p>
@@ -66,17 +66,17 @@ function Blog() {
                   </span>
 
                 <span className='px-6'><a href="#" className=' font-semibold text-lg text-[#26a2ad]'>learn more</a></span>
-            </text>  
+            </section>  
             </section>
-        </card>     {/* Card 2 */}
+        </div>     {/* Card 2 */}
 
-        <card className="w-full mt-5 shadow-lg">
+        <div className="w-full mt-5 shadow-lg">
         <section className='w-full h-auto bg-white border-2  hover:bg-[#e8fafc] pb-12 rounded-lg text-left'>
-            <pic >
+            <div>
             <img src={tech} className=' h-[26em] w-full rounded-xl' alt="" />
-          </pic>
+          </div>
 
-            <text className=''> 
+            <section className=''> 
                   <span className='flex justify-between items-center pt-8 px-6'>
                       <p className='font-medium text-4xl'>Markting</p>
                       <p className='font-medium text-base'>Aug.20.2021</p>
@@ -88,9 +88,9 @@ function Blog() {
                   </span>
 
                 <span className='px-6'><a href="#" className=' font-semibold text-lg text-[#26a2ad]'>learn more</a></span>
-            </text>  
+            </section>  
             </section>
-        </card>     {/* Card 3 */}
+        </div>     {/* Card 3 */}
 
         </div> {/*Layout Cards */}
 
