@@ -44,9 +44,9 @@ function Content() {
         <div className='grid grid-cols-3 m-[2em]'>
         {
             
-            card.map( (item)=>{
+            card.map( (item , index)=>{
                 return(
-                    <section className='py-[6em] w-[28em] rounded-[3em] justify-center text-center transition-[200ms] hover:bg-[#e8fafc] mx-auto shadow-md' >
+                    <section key={index} className='py-[6em] w-[28em] rounded-[3em] justify-center text-center transition-[200ms] hover:bg-[#e8fafc] mx-auto shadow-md' >
                 <img src={item.img} className='w-20 mx-auto mb-10 ' alt="" />
                 <h2 className='font-semibold text-[2rem] mx-auto'>{item.title}</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br></br>Sunt, eveniet consectetur dolorum facilis<br></br> nesciunt deserunt dolor.</p>
@@ -81,9 +81,9 @@ function Content() {
         <div className='mx-auto w-[80%] grid grid-cols-5 mt-[2em] mx-auto '>
         {
             
-            team.map( (item)=>{
+            team.map( (item , index)=>{
                 return(
-            <section className='w-9/12 text-center mx-auto '>
+            <section key={index} className='w-9/12 text-center mx-auto '>
                 <img className='rounded-[50%] w-5/12 mx-auto' src={item.img} alt="" />
                 <div className=' my-10 hover:bg-[#e8fafc] rounded-[32px] py-3 px-[0.6rem] shadow-md transition-all'>  
                     <h4 className='font-semibold  text-[1.8em]'>{item.name}</h4>

@@ -24,7 +24,7 @@ function Navbar() {
           
 
           <nav>
-          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <span className="text-3xl cursor-pointer mx-2 md:hidden block">
             <ion-icon onClick={()=>setOpen(!open)} name={open ? 'close' : 'menu'} ></ion-icon>
         </span>
             <ul className={`flex items-center gap-[3em] md:flex md:items-center md:px-4 z-[-1] md:z-auto absolute md:static 
