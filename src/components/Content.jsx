@@ -78,7 +78,7 @@ function Content() {
         
         {/* Cards */}
         
-        <div className='mx-auto w-[80%] grid grid-cols-5 mt-[2em] mx-auto '>
+        <div className='w-[80%] grid grid-cols-5 mt-[2em] mx-auto '>
         {
             
             team.map( (item , index)=>{

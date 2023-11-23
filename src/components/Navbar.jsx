@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import logo from "../assets/Logo.jpg";
 
 function Navbar() {
-  const [links, setLinks] = useState([
-    "Home",
-    "About us",
-    "Service",
-    "Blog",
-    "Content",
-  ]);
+  const links =["Home","About us","Service","Blog","Content",]
+
   const [open , setOpen] = useState(false)
   return (
     <>

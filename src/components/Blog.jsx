@@ -24,7 +24,7 @@ function Blog() {
           </div>
 
         </div> {/* head */}
-      <div className='flex inline gap-10'>
+      <div className="flex gap-10">
 
         <div className="w-full mt-5 shadow-lg">
             <section className='w-full h-auto bg-white border-2  hover:bg-[#e8fafc] pb-12 rounded-lg text-left'>
